@@ -1,0 +1,65 @@
+/************* Common Slider CSS Starts ************/
+.ccs-cls-logo-showcase.ccs-cls-logo-slider{visibility: hidden; opacity:0;  transition:opacity 0.5s linear; padding:0 30px 30px 30px;}
+.slick-initialized { visibility: visible !important; opacity:1 !important; }
+
+.ccs-cls-logo-showcase.ccs-cls-logo-slider .slick-dots li button {border: 1px solid #000 !important;box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.15);opacity: 0.8;}
+.ccs-cls-logo-showcase.ccs-cls-logo-slider .slick-arrow{text-indent:-99999px;box-shadow: none !important;}
+.ccs-cls-logo-showcase.ccs-cls-logo-slider button.slick-arrow{width:30px; height:30px; position:absolute; z-index:9; border:0px !important;padding:0 !important; margin: -25px 0 0 0 !important; border-radius:0px !important; cursor:pointer;top: 50%;}
+.ccs-cls-logo-showcase.ccs-cls-logo-slider button.slick-next, 
+.ccs-cls-logo-showcase.ccs-cls-logo-slider button.slick-next:hover, 
+.ccs-cls-logo-showcase.ccs-cls-logo-slider button.slick-next:focus{background:rgba(0, 0, 0, 0.5)url('../images/arrow-right.png') center center no-repeat !important; outline:none !important;right:0px;}
+.ccs-cls-logo-showcase.ccs-cls-logo-slider button.slick-prev, 
+.ccs-cls-logo-showcase.ccs-cls-logo-slider button.slick-prev:hover, .ccs-cls-logo-showcase.ccs-cls-logo-slider button.slick-prev:focus{background:rgba(0, 0, 0, 0.5)url('../images/arrow-left.png') center center no-repeat !important; outline:none !important; left: 0px;}
+.ccs-cls-logo-showcase.ccs-cls-logo-slider .slick-dots{padding:0 !important; margin:0 !important; position:absolute;  text-align:center;width: 100%; bottom: 0; left: 0; right: 0;}
+.ccs-cls-logo-showcase.ccs-cls-logo-slider .slick-dots li button{text-indent:-99999px;}
+.ccs-cls-logo-showcase.ccs-cls-logo-slider .slick-dots li {vertical-align: middle;list-style:none !important; display:inline-block !important; margin:0 3px !important; padding:0px !important;line-height: normal; font-size: 0;}
+.ccs-cls-logo-showcase.ccs-cls-logo-slider .slick-dots li button{text-indent: -99999px;margin: 0px !important;padding: 0px !important;border: 2px solid rgb(68, 68, 68) !important;border-radius: 50% !important;width: 12px !important;height: 12px !important;background-color: rgb(255, 255, 255);cursor: pointer;}
+.ccs-cls-logo-showcase.ccs-cls-logo-slider .slick-dots li button:focus{outline:none !important;}
+.ccs-cls-logo-showcase.ccs-cls-logo-slider .slick-dots li.slick-active button{background:#444 !important;}
+.ccs-cls-logo-slider .ccs-cls-fix-box {padding: 0 8px;}
+
+/************* Common Slider CSS Ends ************/
+
+/************* Design 2 ************/
+.ccs-cls-design-2 .ccs-cls-logo-cnt img {border: none;transform: scale(1);-webkit-transform: scale(1);transition: all 0.3s ease-in-out;-webkit-transition: all 0.3s ease-in-out;}
+.ccs-cls-design-2 .ccs-cls-logo-cnt:hover img {transform: scale(1.1);-webkit-transform: scale(1.1);transition: all 0.3s ease-in-out;-webkit-transition: all 0.3s ease-in-out;}
+.ccs-cls-design-2.ccs-cls-logo-slider .ccs-cls-fix-box {padding: 10px;}
+
+/************* Design 3 ************/
+.ccs-cls-design-3 .ccs-cls-logo-cnt img {border: none;-webkit-filter: grayscale(100%);-o-filter: grayscale(100%);filter: grayscale(100%);-webkit-transition: all .3s;-moz-transition: all .3s;-o-transition: all .3s;transition: all .3s;transform: scale(1);-webkit-transform: scale(1);transition: all 0.3s ease-in-out;-webkit-transition: all 0.3s ease-in-out;}
+.ccs-cls-design-3 .ccs-cls-logo-cnt img:hover {-webkit-filter: grayscale(0%);-o-filter: grayscale(0%);filter: grayscale(0%);-webkit-transition: all .3s;-moz-transition: all .3s;-o-transition: all .3s;transition: all .3s;transform: scale(1.1);-webkit-transform: scale(1.1);transition: all 0.3s ease-in-out;-webkit-transition: all 0.3s ease-in-out;}
+.ccs-cls-design-3.ccs-cls-logo-slider .ccs-cls-fix-box {padding: 10px;}
+
+/************* Design 4 ************/
+.ccs-cls-design-4 .ccs-cls-logo-cnt .ccs-cls-fix-box img{border:1px solid #dedede; padding: 10px;}
+
+.ccs-cls-slider-conf{display: none;}
+.ccs-cls-column, .ccs-cls-columns, .ccs-cls-logo-showcase *{ box-sizing: border-box; outline: none !important;}
+.ccs-cls-column,
+.ccs-cls-columns {width: 100%; position: relative; padding-left: 0.9375em; padding-right: 0.9375em; float:none !important; display:inline-block; font-size:initial; vertical-align:middle;}
+.ccs-cls-clearfix:before, .ccs-cls-clearfix:after{content: "";display: table;}
+.ccs-cls-clearfix:after{clear: both;}
+.ccs-cls-fix-box img {max-width: 100%; height: auto;}
+.ccs-cls-logo-cnt .ccs-cls-fix-box img{border-radius: 0;box-shadow: none;margin: 0 auto;}
+.ccs-cls-logo-cnt{text-align: center;}
+.ccs-cls-logo-title {margin-top: 10px; line-height: normal; text-align: center;color: #141414; font-size: 18px; font-weight: 600;text-transform: capitalize;}
+.ccs-cls-logo-showcase.ccs-cls-logo-grid{font-size:0 !important;}
+.ccs-cls-logo-grid .ccs-cls-logo-cnt, .ccs-cls-logo-widget .ccs-cls-logo-cnt {margin-bottom:20px;}
+.ccs-cls-logo-grid .ccs-cls-logo-cnt.ccs-cls-first {clear: both;}
+
+@media only screen and (min-width: 40.0625em) {  
+    .ccs-cls-column,
+    .ccs-cls-columns {position: relative;padding-left: 0.9375em;padding-right: 0.9375em;float:none !important; display:inline-block; font-size:initial; vertical-align:middle;}
+    .ccs-cls-col-1{ width: 100%; }
+    .ccs-cls-col-2{ width: 50%; }
+    .ccs-cls-col-3{ width: 33.33333%; }
+    .ccs-cls-col-4{ width: 25%; }
+    .ccs-cls-col-5{ width:20%; }
+    .ccs-cls-col-6{ width: 16.66667%; }
+    .ccs-cls-col-7{ width: 14.2857%; }
+    .ccs-cls-col-8{ width: 12.5%; }
+    .ccs-cls-col-9{ width: 11.11%; }
+    .ccs-cls-col-10{ width: 10%; }
+    .ccs-cls-col-11{ width: 9.090%; }
+    .ccs-cls-col-12{ width: 8.33333%; }
+}
